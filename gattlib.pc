@@ -1,0 +1,11 @@
+prefix=
+exec_prefix=/home/azermert/Desktop/repo/ble_onboarding_client/ble_onboarding_client/
+includedir=/home/azermert/Desktop/repo/ble_onboarding_client/ble_onboarding_client/
+libdir=/home/azermert/Desktop/repo/ble_onboarding_client/ble_onboarding_client/
+
+Name: gattlib
+Description: 
+Requires: glib-2.0
+Version: 
+Cflags: -I${includedir}
+Libs: -L${libdir} -lgattlib
