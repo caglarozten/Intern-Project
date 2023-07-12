@@ -1,2 +1,7 @@
-hello world
-
+include <iostream>
+using namespace srd;
+intmain()
+{
+        cout<<"Hello World/n";
+        return 0;
+}
